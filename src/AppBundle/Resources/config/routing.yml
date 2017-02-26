@@ -1,0 +1,6 @@
+all_users:
+    path: /all_users
+    defaults: { _controller: AppBundle:User:showAll }
+show_user:
+    path: /showUser/{id}
+    defaults: { _controller: AppBundle:User:showParticularUser }
